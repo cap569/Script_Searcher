@@ -90,20 +90,20 @@ body {
 }
 
 .blob1 {
-  background: linear-gradient(45deg, #6e56cf, #2d3748);
+  background: linear-gradient(45deg, #444445, #6a6a6b);
   top: -200px;
   left: -200px;
 }
 
 .blob2 {
-  background: linear-gradient(45deg, #4c1d95, #2563eb);
+  background: linear-gradient(45deg, #050505, #63666e);
   bottom: -300px;
   right: -200px;
   animation-delay: -5s;
 }
 
 .blob3 {
-  background: linear-gradient(45deg, #4338ca, #1e40af);
+  background: linear-gradient(45deg, #0c0b1c, #02175c);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
