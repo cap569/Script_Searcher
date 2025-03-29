@@ -39,7 +39,7 @@
 body {
   margin: 0;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
-  background: #0a0a0c;
+  background: #191919;
   color: var(--text-color);
   min-height: 100vh;
   overflow-x: hidden;
@@ -90,20 +90,20 @@ body {
 }
 
 .blob1 {
-  background: linear-gradient(45deg, #444445, #6a6a6b);
+  background: linear-gradient(45deg, #444445, #2d2d2d);
   top: -200px;
   left: -200px;
 }
 
 .blob2 {
-  background: linear-gradient(45deg, #050505, #63666e);
+  background: linear-gradient(45deg, #050505, #2f2f2f);
   bottom: -300px;
   right: -200px;
   animation-delay: -5s;
 }
 
 .blob3 {
-  background: linear-gradient(45deg, #0c0b1c, #02175c);
+  background: linear-gradient(45deg, #060606, #161616);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
