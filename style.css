@@ -2,7 +2,7 @@
   --glass-bg: rgba(255, 255, 255, 0.1);
   --glass-border: rgba(255, 255, 255, 0.2);
   --primary-color: #636363;
-  --primary-hover: #424242;
+  --primary-hover: ##333333;
   --text-color: #ffffff;
   --card-bg: rgba(16, 16, 20, 0.6);
   --modal-bg: rgba(28, 28, 35, 0.95);
@@ -151,7 +151,7 @@ header h1 {
   font-size: 3.5em;
   color: var(--text-color);
   margin-bottom: 30px;
-  text-shadow: 0 0 20px rgba(110, 86, 207, 0.5);
+  text-shadow: 0 0 20px rgba(28, 28, 28, 0.5);
   animation: scaleIn 0.8s ease-out;
 }
 
