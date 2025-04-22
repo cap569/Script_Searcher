@@ -37,13 +37,24 @@
   }
 
 body {
-  margin: 0;
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
-  background: #191919;
-  color: var(--text-color);
-  min-height: 100vh;
-  overflow-x: hidden;
+    line-height: 1;
+    overflow-x: hidden;
+    background-color: var(--bg);
+    background-image:
+    radial-gradient(circle at 5% 5%, rgba(14, 82, 209, 0.253), transparent 25%),
+    radial-gradient(circle at 95% 5%, rgba(56, 126, 255, 0.163), transparent 25%),
+    radial-gradient(circle at 78% 20%, rgba(25, 93, 221, 0.185), transparent 100%),
+    linear-gradient(rgba(188, 188, 188, 0.01) 1px, transparent 3px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.012) 2px, transparent 2px);
+    background-size: 100% 100%, 100% 100%, 100% 100%, 30px 30px, 30px 30px;
+    background-size: 100% 100%, 100% 100%, 100% 100%, 30px 30px, 30px 30px;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
+
 
 @keyframes fadeIn {
   from {
